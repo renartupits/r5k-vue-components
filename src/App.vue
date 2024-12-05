@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import CustComp from './components/CustComp.vue';
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <CustComp title="Nupp" />
 </template>

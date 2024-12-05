@@ -1,7 +1,14 @@
 {
-  "name": "r5k-vue-components",
-  "version": "1.0.0",
+  "name": "@renartupits/r5k-vue-components",
+  "version": "1.0.3",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renartupits/r5k-vue-components.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "dist"
   ],
@@ -13,7 +20,7 @@
       "import": "./dist/r5k-vue-components.js",
       "require": "./dist/r5k-vue-components.umd.cjs"
     },
-    "./style.css": "./dist/style.css"
+    "./dist/r5k-vue-components.css": "./dist/r5k-vue-components.css"
   },
   "scripts": {
     "dev": "vite",
@@ -27,6 +34,9 @@
   "devDependencies": {
     "@types/node": "^22.10.1",
     "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
     "typescript": "~5.6.2",
     "vite": "^6.0.1",
     "vue-tsc": "^2.1.10"

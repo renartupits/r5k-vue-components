@@ -1,3 +1,5 @@
-import HelloWorld from './components/HelloWorld.vue'
+import './assets/styles/tailwind.css'
 
-export { HelloWorld }
+import CustComp from './components/CustComp.vue'
+
+export { CustComp }
